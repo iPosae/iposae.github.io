@@ -15,14 +15,14 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/hover.css" rel="stylesheet">
   <!-- animate styles -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
 </head>
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Clarence Taylor</span>
+      <span class="d-block d-lg-none">Samuel Posae</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -46,10 +46,10 @@
         </li>
       </ul>
     </div>
-    <div class="footer-copyright text-center py-3">Copyright ©2019 Todos os direitos reservados</div>
+    <div class="footer-copyright text-center py-3 d-none d-lg-block">Copyright ©2019 Todos os direitos reservados</div>
   </nav>
   <div class="container-fluid p-0">
-  <div class="background">
+  <div class="background" data-stellar-background-ratio="2">
     <section  class="mx-auto resume-section p-3 p-lg-5 d-flex justify-content-center" id="about">
       <div data-aos="fade-right" data-aos-duration="2000" class="col-md-12 text text-center">
         <span class="d-lg-block">
@@ -256,7 +256,8 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+    $(".background").stellar();
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
 </body>
 </html>
